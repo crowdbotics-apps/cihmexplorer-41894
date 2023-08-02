@@ -1,3 +1,4 @@
+import { FlatList } from "react-native";
 import React, { useContext } from "react";
 import { OptionsContext, GlobalOptionsContext } from "@options";
 import { SafeAreaView, ScrollView, View, Text, Pressable } from "react-native";
@@ -11,7 +12,7 @@ function AppMenu() {
         <View style={options.styles.hr} />
         <GlobalOptions options={options} />
       </ScrollView>
-    </SafeAreaView>;
+    <FlatList></FlatList><FlatList></FlatList></SafeAreaView>;
 }
 
 function AppRoutes({

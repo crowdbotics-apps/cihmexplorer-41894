@@ -9,6 +9,6 @@ export const globalOptions = {
 };
 export const modulesOptions = {
   "@modules/app-menu": {
-    copy: "Routes available!"
+    "copy": "Routes available!"
   }
 };
